@@ -78,8 +78,6 @@ class calculator{
 		const displayDigit = parseFloat(number)
 		intDigit.format(number)
 		number.toString()
-		if(number == '.') return '0.'
-		if(number.includes('.')) return '0' + number
 		return number
 	}
 
